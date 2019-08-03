@@ -1,0 +1,6 @@
+framework module Pods_SantaProde {
+  umbrella header "Pods-SantaProde-umbrella.h"
+
+  export *
+  module * { export * }
+}

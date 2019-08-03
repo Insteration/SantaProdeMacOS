@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		316B873DAB83BF3AAF3329FD /* Pods_SantaProdeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5E73E0FABB40A50F1724D8F /* Pods_SantaProdeTests.framework */; };
+		4ABA10B022F56B0700D7B2A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABA10AF22F56B0700D7B2A7 /* AppDelegate.swift */; };
+		4ABA10B222F56B0700D7B2A7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABA10B122F56B0700D7B2A7 /* LoginViewController.swift */; };
+		4ABA10B522F56B0700D7B2A7 /* SantaProde.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4ABA10B322F56B0700D7B2A7 /* SantaProde.xcdatamodeld */; };
+		4ABA10B722F56B0900D7B2A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABA10B622F56B0900D7B2A7 /* Assets.xcassets */; };
+		4ABA10BA22F56B0900D7B2A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABA10B822F56B0900D7B2A7 /* Main.storyboard */; };
+		4ABA10C622F56B0A00D7B2A7 /* SantaProdeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABA10C522F56B0A00D7B2A7 /* SantaProdeTests.swift */; };
+		4ABA10D122F56B0A00D7B2A7 /* SantaProdeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABA10D022F56B0A00D7B2A7 /* SantaProdeUITests.swift */; };
+		4ABA10DF22F5718500D7B2A7 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABA10DE22F5718500D7B2A7 /* Alamofire.framework */; };
+		4ABA10E122F59A1D00D7B2A7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABA10E022F59A1D00D7B2A7 /* RegisterViewController.swift */; };
+		4ABA10E322F59A8000D7B2A7 /* MainHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABA10E222F59A8000D7B2A7 /* MainHomeViewController.swift */; };
+		8D9E7D6BA17CA8D950882FE6 /* Pods_SantaProde.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB46400B4F640F017CDE40EE /* Pods_SantaProde.framework */; };
+		D5998C7A9A81BDF275955D30 /* Pods_SantaProdeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08373E9B37FF88D54E38559E /* Pods_SantaProdeUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ABA10C222F56B0A00D7B2A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ABA10A422F56B0700D7B2A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ABA10AB22F56B0700D7B2A7;
+			remoteInfo = SantaProde;
+		};
+		4ABA10CD22F56B0A00D7B2A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ABA10A422F56B0700D7B2A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ABA10AB22F56B0700D7B2A7;
+			remoteInfo = SantaProde;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08373E9B37FF88D54E38559E /* Pods_SantaProdeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SantaProdeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABA10AC22F56B0700D7B2A7 /* SantaProde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SantaProde.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABA10AF22F56B0700D7B2A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4ABA10B122F56B0700D7B2A7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4ABA10B422F56B0700D7B2A7 /* SantaProde.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SantaProde.xcdatamodel; sourceTree = "<group>"; };
+		4ABA10B622F56B0900D7B2A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4ABA10B922F56B0900D7B2A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4ABA10BB22F56B0900D7B2A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ABA10BC22F56B0900D7B2A7 /* SantaProde.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SantaProde.entitlements; sourceTree = "<group>"; };
+		4ABA10C122F56B0A00D7B2A7 /* SantaProdeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SantaProdeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABA10C522F56B0A00D7B2A7 /* SantaProdeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SantaProdeTests.swift; sourceTree = "<group>"; };
+		4ABA10C722F56B0A00D7B2A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ABA10CC22F56B0A00D7B2A7 /* SantaProdeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SantaProdeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABA10D022F56B0A00D7B2A7 /* SantaProdeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SantaProdeUITests.swift; sourceTree = "<group>"; };
+		4ABA10D222F56B0A00D7B2A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ABA10DE22F5718500D7B2A7 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABA10E022F59A1D00D7B2A7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		4ABA10E222F59A8000D7B2A7 /* MainHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHomeViewController.swift; sourceTree = "<group>"; };
+		530CED546CA3FBD1DCAD6C49 /* Pods-SantaProde.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SantaProde.release.xcconfig"; path = "Target Support Files/Pods-SantaProde/Pods-SantaProde.release.xcconfig"; sourceTree = "<group>"; };
+		5312FA40A4A42B8CB25E2507 /* Pods-SantaProdeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SantaProdeUITests.release.xcconfig"; path = "Target Support Files/Pods-SantaProdeUITests/Pods-SantaProdeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		647BD5AE696E10EAECE055E6 /* Pods-SantaProdeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SantaProdeTests.release.xcconfig"; path = "Target Support Files/Pods-SantaProdeTests/Pods-SantaProdeTests.release.xcconfig"; sourceTree = "<group>"; };
+		742436ABC3290AE6C0175A58 /* Pods-SantaProdeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SantaProdeUITests.debug.xcconfig"; path = "Target Support Files/Pods-SantaProdeUITests/Pods-SantaProdeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		874AAB81B11195A71B02BC01 /* Pods-SantaProde.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SantaProde.debug.xcconfig"; path = "Target Support Files/Pods-SantaProde/Pods-SantaProde.debug.xcconfig"; sourceTree = "<group>"; };
+		B2795C8B70F3A1057A6598EA /* Pods-SantaProdeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SantaProdeTests.debug.xcconfig"; path = "Target Support Files/Pods-SantaProdeTests/Pods-SantaProdeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5E73E0FABB40A50F1724D8F /* Pods_SantaProdeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SantaProdeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB46400B4F640F017CDE40EE /* Pods_SantaProde.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SantaProde.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ABA10A922F56B0700D7B2A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABA10DF22F5718500D7B2A7 /* Alamofire.framework in Frameworks */,
+				8D9E7D6BA17CA8D950882FE6 /* Pods_SantaProde.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABA10BE22F56B0A00D7B2A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				316B873DAB83BF3AAF3329FD /* Pods_SantaProdeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABA10C922F56B0A00D7B2A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5998C7A9A81BDF275955D30 /* Pods_SantaProdeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ABA10A322F56B0700D7B2A7 = {
+			isa = PBXGroup;
+			children = (
+				4ABA10AE22F56B0700D7B2A7 /* SantaProde */,
+				4ABA10C422F56B0A00D7B2A7 /* SantaProdeTests */,
+				4ABA10CF22F56B0A00D7B2A7 /* SantaProdeUITests */,
+				4ABA10AD22F56B0700D7B2A7 /* Products */,
+				9B157E0926CC45C84882D677 /* Pods */,
+				B7A0FC736243EAEB2CB51F7D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4ABA10AD22F56B0700D7B2A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ABA10AC22F56B0700D7B2A7 /* SantaProde.app */,
+				4ABA10C122F56B0A00D7B2A7 /* SantaProdeTests.xctest */,
+				4ABA10CC22F56B0A00D7B2A7 /* SantaProdeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ABA10AE22F56B0700D7B2A7 /* SantaProde */ = {
+			isa = PBXGroup;
+			children = (
+				4ABA10AF22F56B0700D7B2A7 /* AppDelegate.swift */,
+				4ABA10B122F56B0700D7B2A7 /* LoginViewController.swift */,
+				4ABA10E022F59A1D00D7B2A7 /* RegisterViewController.swift */,
+				4ABA10E222F59A8000D7B2A7 /* MainHomeViewController.swift */,
+				4ABA10B622F56B0900D7B2A7 /* Assets.xcassets */,
+				4ABA10B822F56B0900D7B2A7 /* Main.storyboard */,
+				4ABA10BB22F56B0900D7B2A7 /* Info.plist */,
+				4ABA10BC22F56B0900D7B2A7 /* SantaProde.entitlements */,
+				4ABA10B322F56B0700D7B2A7 /* SantaProde.xcdatamodeld */,
+			);
+			path = SantaProde;
+			sourceTree = "<group>";
+		};
+		4ABA10C422F56B0A00D7B2A7 /* SantaProdeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4ABA10C522F56B0A00D7B2A7 /* SantaProdeTests.swift */,
+				4ABA10C722F56B0A00D7B2A7 /* Info.plist */,
+			);
+			path = SantaProdeTests;
+			sourceTree = "<group>";
+		};
+		4ABA10CF22F56B0A00D7B2A7 /* SantaProdeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4ABA10D022F56B0A00D7B2A7 /* SantaProdeUITests.swift */,
+				4ABA10D222F56B0A00D7B2A7 /* Info.plist */,
+			);
+			path = SantaProdeUITests;
+			sourceTree = "<group>";
+		};
+		9B157E0926CC45C84882D677 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				874AAB81B11195A71B02BC01 /* Pods-SantaProde.debug.xcconfig */,
+				530CED546CA3FBD1DCAD6C49 /* Pods-SantaProde.release.xcconfig */,
+				B2795C8B70F3A1057A6598EA /* Pods-SantaProdeTests.debug.xcconfig */,
+				647BD5AE696E10EAECE055E6 /* Pods-SantaProdeTests.release.xcconfig */,
+				742436ABC3290AE6C0175A58 /* Pods-SantaProdeUITests.debug.xcconfig */,
+				5312FA40A4A42B8CB25E2507 /* Pods-SantaProdeUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B7A0FC736243EAEB2CB51F7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4ABA10DE22F5718500D7B2A7 /* Alamofire.framework */,
+				EB46400B4F640F017CDE40EE /* Pods_SantaProde.framework */,
+				C5E73E0FABB40A50F1724D8F /* Pods_SantaProdeTests.framework */,
+				08373E9B37FF88D54E38559E /* Pods_SantaProdeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ABA10AB22F56B0700D7B2A7 /* SantaProde */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ABA10D522F56B0A00D7B2A7 /* Build configuration list for PBXNativeTarget "SantaProde" */;
+			buildPhases = (
+				E136DAC8D1FE9F8811DC4FDE /* [CP] Check Pods Manifest.lock */,
+				4ABA10A822F56B0700D7B2A7 /* Sources */,
+				4ABA10A922F56B0700D7B2A7 /* Frameworks */,
+				4ABA10AA22F56B0700D7B2A7 /* Resources */,
+				148924883BE7E812E0862453 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SantaProde;
+			productName = SantaProde;
+			productReference = 4ABA10AC22F56B0700D7B2A7 /* SantaProde.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4ABA10C022F56B0A00D7B2A7 /* SantaProdeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ABA10D822F56B0A00D7B2A7 /* Build configuration list for PBXNativeTarget "SantaProdeTests" */;
+			buildPhases = (
+				1597F304C787A7525E8C7554 /* [CP] Check Pods Manifest.lock */,
+				4ABA10BD22F56B0A00D7B2A7 /* Sources */,
+				4ABA10BE22F56B0A00D7B2A7 /* Frameworks */,
+				4ABA10BF22F56B0A00D7B2A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ABA10C322F56B0A00D7B2A7 /* PBXTargetDependency */,
+			);
+			name = SantaProdeTests;
+			productName = SantaProdeTests;
+			productReference = 4ABA10C122F56B0A00D7B2A7 /* SantaProdeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4ABA10CB22F56B0A00D7B2A7 /* SantaProdeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ABA10DB22F56B0A00D7B2A7 /* Build configuration list for PBXNativeTarget "SantaProdeUITests" */;
+			buildPhases = (
+				B7217B303F2D224B27E4984F /* [CP] Check Pods Manifest.lock */,
+				4ABA10C822F56B0A00D7B2A7 /* Sources */,
+				4ABA10C922F56B0A00D7B2A7 /* Frameworks */,
+				4ABA10CA22F56B0A00D7B2A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ABA10CE22F56B0A00D7B2A7 /* PBXTargetDependency */,
+			);
+			name = SantaProdeUITests;
+			productName = SantaProdeUITests;
+			productReference = 4ABA10CC22F56B0A00D7B2A7 /* SantaProdeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ABA10A422F56B0700D7B2A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "iOS Team";
+				TargetAttributes = {
+					4ABA10AB22F56B0700D7B2A7 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					4ABA10C022F56B0A00D7B2A7 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 4ABA10AB22F56B0700D7B2A7;
+					};
+					4ABA10CB22F56B0A00D7B2A7 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 4ABA10AB22F56B0700D7B2A7;
+					};
+				};
+			};
+			buildConfigurationList = 4ABA10A722F56B0700D7B2A7 /* Build configuration list for PBXProject "SantaProde" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ABA10A322F56B0700D7B2A7;
+			productRefGroup = 4ABA10AD22F56B0700D7B2A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ABA10AB22F56B0700D7B2A7 /* SantaProde */,
+				4ABA10C022F56B0A00D7B2A7 /* SantaProdeTests */,
+				4ABA10CB22F56B0A00D7B2A7 /* SantaProdeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ABA10AA22F56B0700D7B2A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABA10B722F56B0900D7B2A7 /* Assets.xcassets in Resources */,
+				4ABA10BA22F56B0900D7B2A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABA10BF22F56B0A00D7B2A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABA10CA22F56B0A00D7B2A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		148924883BE7E812E0862453 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SantaProde/Pods-SantaProde-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SantaProde/Pods-SantaProde-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SantaProde/Pods-SantaProde-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1597F304C787A7525E8C7554 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SantaProdeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7217B303F2D224B27E4984F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SantaProdeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E136DAC8D1FE9F8811DC4FDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SantaProde-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ABA10A822F56B0700D7B2A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABA10B222F56B0700D7B2A7 /* LoginViewController.swift in Sources */,
+				4ABA10E322F59A8000D7B2A7 /* MainHomeViewController.swift in Sources */,
+				4ABA10B522F56B0700D7B2A7 /* SantaProde.xcdatamodeld in Sources */,
+				4ABA10B022F56B0700D7B2A7 /* AppDelegate.swift in Sources */,
+				4ABA10E122F59A1D00D7B2A7 /* RegisterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABA10BD22F56B0A00D7B2A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABA10C622F56B0A00D7B2A7 /* SantaProdeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABA10C822F56B0A00D7B2A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABA10D122F56B0A00D7B2A7 /* SantaProdeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4ABA10C322F56B0A00D7B2A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ABA10AB22F56B0700D7B2A7 /* SantaProde */;
+			targetProxy = 4ABA10C222F56B0A00D7B2A7 /* PBXContainerItemProxy */;
+		};
+		4ABA10CE22F56B0A00D7B2A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ABA10AB22F56B0700D7B2A7 /* SantaProde */;
+			targetProxy = 4ABA10CD22F56B0A00D7B2A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4ABA10B822F56B0900D7B2A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ABA10B922F56B0900D7B2A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4ABA10D322F56B0A00D7B2A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4ABA10D422F56B0A00D7B2A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4ABA10D622F56B0A00D7B2A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 874AAB81B11195A71B02BC01 /* Pods-SantaProde.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SantaProde/SantaProde.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SantaProde/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iOSTeam2019.SantaProde;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4ABA10D722F56B0A00D7B2A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 530CED546CA3FBD1DCAD6C49 /* Pods-SantaProde.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SantaProde/SantaProde.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SantaProde/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iOSTeam2019.SantaProde;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4ABA10D922F56B0A00D7B2A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2795C8B70F3A1057A6598EA /* Pods-SantaProdeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SantaProdeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iOSTeam2019.SantaProdeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SantaProde.app/Contents/MacOS/SantaProde";
+			};
+			name = Debug;
+		};
+		4ABA10DA22F56B0A00D7B2A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 647BD5AE696E10EAECE055E6 /* Pods-SantaProdeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SantaProdeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iOSTeam2019.SantaProdeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SantaProde.app/Contents/MacOS/SantaProde";
+			};
+			name = Release;
+		};
+		4ABA10DC22F56B0A00D7B2A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 742436ABC3290AE6C0175A58 /* Pods-SantaProdeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SantaProdeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iOSTeam2019.SantaProdeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SantaProde;
+			};
+			name = Debug;
+		};
+		4ABA10DD22F56B0A00D7B2A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5312FA40A4A42B8CB25E2507 /* Pods-SantaProdeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SantaProdeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iOSTeam2019.SantaProdeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SantaProde;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ABA10A722F56B0700D7B2A7 /* Build configuration list for PBXProject "SantaProde" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABA10D322F56B0A00D7B2A7 /* Debug */,
+				4ABA10D422F56B0A00D7B2A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ABA10D522F56B0A00D7B2A7 /* Build configuration list for PBXNativeTarget "SantaProde" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABA10D622F56B0A00D7B2A7 /* Debug */,
+				4ABA10D722F56B0A00D7B2A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ABA10D822F56B0A00D7B2A7 /* Build configuration list for PBXNativeTarget "SantaProdeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABA10D922F56B0A00D7B2A7 /* Debug */,
+				4ABA10DA22F56B0A00D7B2A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ABA10DB22F56B0A00D7B2A7 /* Build configuration list for PBXNativeTarget "SantaProdeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABA10DC22F56B0A00D7B2A7 /* Debug */,
+				4ABA10DD22F56B0A00D7B2A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4ABA10B322F56B0700D7B2A7 /* SantaProde.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4ABA10B422F56B0700D7B2A7 /* SantaProde.xcdatamodel */,
+			);
+			currentVersion = 4ABA10B422F56B0700D7B2A7 /* SantaProde.xcdatamodel */;
+			path = SantaProde.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4ABA10A422F56B0700D7B2A7 /* Project object */;
+}
